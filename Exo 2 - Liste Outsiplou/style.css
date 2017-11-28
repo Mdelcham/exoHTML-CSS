@@ -1,0 +1,29 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	padding: 0.5em;
+}
+
+td, th {
+	border: 2px solid black;
+}
+
+tr:nth-child(even){
+	background-color: #B3B5B7;
+}
+tr:first-child {
+	background-color: yellow;
+}
+
+.girl {
+	color: purple;
+}
+ .boy {
+ 	color: green;
+ }
