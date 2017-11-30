@@ -93,8 +93,7 @@ nav a i{
 .left {
 	float: left;
 	padding-left: 50px;
-	justify-content: center;}
-
+}
 .right{
 	float: right;
 	padding-right: 50px;
