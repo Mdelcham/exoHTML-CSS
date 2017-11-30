@@ -22,7 +22,6 @@ nav a{
 	padding: 10px;
 	color:#F5F2ED;
 	font-size: 13px;
-	font-weight;
 	margin-right: 5px;
 }
 .right {
@@ -94,7 +93,7 @@ nav a i{
 .left {
 	float: left;
 	padding-left: 50px;
-}
+	justify-content: center;}
 
 .right{
 	float: right;
@@ -126,6 +125,38 @@ nav a i{
 	font-size: 20px;
 	border-radius: 10px;
 	border: 2px solid white;
-	padding: 10px 7px 10px 7px;
+	padding: 15px 7px 15px 7px;
 	margin-left: 10px;
+	font-weight: bold;
+	width: 200px;
+	background-color: #165882;
+	color: white;
+	margin-bottom: 100px;
+}
+.bottom :nth-child(3){
+	background-color: #E99002;
+}
+
+footer {
+	display: flex;
+	background-color:#333333;
+	color:white;
+	justify-content: flex-start;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+footer p {
+	margin-right: 10px;
+	border-right: 1px dotted white;
+	padding-right: 10px;
+	font-size: 13px;
+}
+
+.right1{
+	margin-left: auto;
+	height: auto;
+	border-right: none;
+}
+
 
